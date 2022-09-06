@@ -1,0 +1,13 @@
+lockfileVersion: 5.4
+
+specifiers:
+  s-expression: ^3.1.1
+
+dependencies:
+  s-expression: 3.1.1
+
+packages:
+
+  /s-expression/3.1.1:
+    resolution: {integrity: sha512-VMsW7sIvixXfIDmDll7XCePMYYY52UlUtA7OlFQUovqj3XtQ2UkZkjjAvnSFW8o+SbswzUEeCBMmpAx9LS3qrg==}
+    dev: false

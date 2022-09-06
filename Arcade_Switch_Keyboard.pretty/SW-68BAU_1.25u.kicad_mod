@@ -1,0 +1,167 @@
+(footprint "SW-68BAU_1.25u" 
+  (version 20211014) 
+  (generator pcbnew) 
+  (layer "F.Cu") 
+  (tedit 0) 
+  (descr "SW-68BAU THT pads with 1.25u spacing") 
+  (tags "sanwa,sw-68,sw-68bau,switch,keyboard") 
+  (attr through_hole) 
+  (fp_text reference "REF**" 
+    (at 0 4.85 unlocked) 
+    (layer "F.SilkS") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 0e9f1214-d028-468e-8c65-b374c2ed829a)
+  ) 
+  (fp_text value "SW-68BAU" 
+    (at 0 6.85 unlocked) 
+    (layer "F.Fab") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 08f1ab61-be6d-4fc8-8fa6-13fdf41ae2ee)
+  ) 
+  (fp_text user "Switch centre" 
+    (at 0 -1.25 unlocked) 
+    (layer "Dwgs.User") 
+    (effects 
+      (font 
+        (size 0.75 0.75) 
+        (thickness 0.125)
+      )
+    ) 
+    (tstamp 602380ee-6586-49e5-b2bb-adcccd83f165)
+  ) 
+  (fp_text user "${REFERENCE}" 
+    (at 0 4.85 unlocked) 
+    (layer "F.Fab") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 650e9d71-4238-453f-8f62-ddb1d417c48c)
+  ) 
+  (fp_line 
+    (start -0.5 0.5) 
+    (end 0.5 -0.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp 9440a8fd-f46a-4a5c-a155-b80fbcfd670a)
+  ) 
+  (fp_line 
+    (start -0.5 -0.5) 
+    (end 0.5 0.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp f4b8c3ea-3e43-411f-a1bd-c4eda8c110d4)
+  ) 
+  (fp_rect 
+    (start 7.5 6) 
+    (end -7.5 -6) 
+    (layer "F.Fab") 
+    (width 0.05) 
+    (fill none) 
+    (tstamp 3ebc9f73-b4a9-4c58-afc7-d5f128a8a38f)
+  ) 
+  (pad "1" thru_hole circle 
+    (at 1.75 2) 
+    (size 2 2) 
+    (drill 1.2) 
+    (layers *.Cu *.Mask) 
+    (tstamp bce11d36-b6a1-4347-8c2b-3588c3ac1993)
+  ) 
+  (pad "2" thru_hole circle 
+    (at -1.75 2) 
+    (size 2 2) 
+    (drill 1.2) 
+    (layers *.Cu *.Mask) 
+    (tstamp fb44efc9-80a9-4d17-80d1-efab062c1769)
+  ) 
+  (fp_text user "18x17 spacing" 
+    (at 0 -7.6) 
+    (layer "Dwgs.User") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 5f0bbdd6-fc7f-4f10-bf66-bd2fb893a3f3)
+  ) 
+  (fp_text user "19.05 spacing" 
+    (at 0 -8.7) 
+    (layer "Eco1.User") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 1524601d-d88e-49bf-a6be-af1afa4ad0a2)
+  ) 
+  (fp_line 
+    (start 11.25 8.5) 
+    (end -11.25 8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp 2ec93621-5a52-41d5-a2dc-b14b2eb9aaad)
+  ) 
+  (fp_line 
+    (start -11.25 -8.5) 
+    (end 11.25 -8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp 3774a9ff-ee0c-4e8c-a41d-8f7ab9aba0a3)
+  ) 
+  (fp_line 
+    (start -11.25 8.5) 
+    (end -11.25 -8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp a3862fd5-2323-4dea-a7bf-f4e7144633c0)
+  ) 
+  (fp_line 
+    (start 11.25 -8.5) 
+    (end 11.25 8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp fa15b297-73fc-4b78-9a03-35f3f699e6e1)
+  ) 
+  (fp_line 
+    (start -11.90625 9.525) 
+    (end 11.90625 9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp 6034257a-60df-4b12-98ff-887d267b4116)
+  ) 
+  (fp_line 
+    (start 11.90625 9.525) 
+    (end 11.90625 -9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp c6f3e5d5-3c54-40d0-b4f2-2a350b1c992b)
+  ) 
+  (fp_line 
+    (start 11.90625 -9.525) 
+    (end -11.90625 -9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp f5f002d3-c89d-426d-8e8a-49867d10c7cd)
+  ) 
+  (fp_line 
+    (start -11.90625 -9.525) 
+    (end -11.90625 9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp ff52f3a1-574e-469d-bdbc-937ca38c05d5)
+  )
+)

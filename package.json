@@ -1,0 +1,8 @@
+{
+	"dependencies": {
+		"s-expression": "^3.1.1"
+	},
+	"scripts": {
+		"gen": "node genKeySpacing.js"
+	}
+}

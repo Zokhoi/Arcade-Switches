@@ -1,0 +1,167 @@
+(footprint "MM9-2_1.5u" 
+  (version 20211014) 
+  (generator pcbnew) 
+  (layer "F.Cu") 
+  (tedit 0) 
+  (descr "MM9-2 THT pads with 1.5u spacing") 
+  (tags "seimitsu,mm9-2,switch,keyboard") 
+  (attr through_hole) 
+  (fp_text reference "REF**" 
+    (at 0 4.85 unlocked) 
+    (layer "F.SilkS") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 0e9f1214-d028-468e-8c65-b374c2ed829a)
+  ) 
+  (fp_text value "MM9-2" 
+    (at 0 6.85 unlocked) 
+    (layer "F.Fab") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 08f1ab61-be6d-4fc8-8fa6-13fdf41ae2ee)
+  ) 
+  (fp_text user "Switch centre" 
+    (at 0 -1.5875 unlocked) 
+    (layer "Dwgs.User") 
+    (effects 
+      (font 
+        (size 0.75 0.75) 
+        (thickness 0.125)
+      )
+    ) 
+    (tstamp 602380ee-6586-49e5-b2bb-adcccd83f165)
+  ) 
+  (fp_text user "${REFERENCE}" 
+    (at 0 4.85 unlocked) 
+    (layer "F.Fab") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 650e9d71-4238-453f-8f62-ddb1d417c48c)
+  ) 
+  (fp_line 
+    (start -0.5 0.5) 
+    (end 0.5 -0.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp 9440a8fd-f46a-4a5c-a155-b80fbcfd670a)
+  ) 
+  (fp_line 
+    (start -0.5 -0.5) 
+    (end 0.5 0.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp f4b8c3ea-3e43-411f-a1bd-c4eda8c110d4)
+  ) 
+  (fp_rect 
+    (start 7.5 6) 
+    (end -7.5 -6) 
+    (layer "F.Fab") 
+    (width 0.05) 
+    (fill none) 
+    (tstamp 3ebc9f73-b4a9-4c58-afc7-d5f128a8a38f)
+  ) 
+  (pad "1" thru_hole circle 
+    (at 2.1 0 90) 
+    (size 2 2) 
+    (drill 1.2) 
+    (layers *.Cu *.Mask) 
+    (tstamp bce11d36-b6a1-4347-8c2b-3588c3ac1993)
+  ) 
+  (pad "2" thru_hole circle 
+    (at -2.1 0) 
+    (size 2 2) 
+    (drill 1.2) 
+    (layers *.Cu *.Mask) 
+    (tstamp fb44efc9-80a9-4d17-80d1-efab062c1769)
+  ) 
+  (fp_text user "18x17 spacing" 
+    (at 0 -7.6) 
+    (layer "Dwgs.User") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 11df133f-977b-468f-a6d7-ae55dad87f81)
+  ) 
+  (fp_text user "19.05 spacing" 
+    (at 0 -8.7) 
+    (layer "Eco1.User") 
+    (effects 
+      (font 
+        (size 1 1) 
+        (thickness 0.15)
+      )
+    ) 
+    (tstamp 8a7c7177-b5c3-4ae0-8ff6-64903a0d6f6a)
+  ) 
+  (fp_line 
+    (start 13.5 -8.5) 
+    (end 13.5 8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp bdabf3e4-d9a9-40e4-8e8a-52ce1d0389d9)
+  ) 
+  (fp_line 
+    (start -13.5 -8.5) 
+    (end 13.5 -8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp c268fa92-b422-4248-8aaa-c5afc0ee87b0)
+  ) 
+  (fp_line 
+    (start 13.5 8.5) 
+    (end -13.5 8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp de57723e-2ea1-4b2b-b4a9-322b7779cfe6)
+  ) 
+  (fp_line 
+    (start -13.5 8.5) 
+    (end -13.5 -8.5) 
+    (layer "Dwgs.User") 
+    (width 0.12) 
+    (tstamp e5bd28f1-782e-4f24-a19c-a62863d46d75)
+  ) 
+  (fp_line 
+    (start 14.2875 9.525) 
+    (end 14.2875 -9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp 245728a0-d388-442b-a613-b00dfcef5464)
+  ) 
+  (fp_line 
+    (start -14.2875 -9.525) 
+    (end -14.2875 9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp 46b86497-2b86-4d53-8dbd-0128e4c1c3cf)
+  ) 
+  (fp_line 
+    (start -14.2875 9.525) 
+    (end 14.2875 9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp 8a5b736f-62f7-4c03-b26b-087d9f02bdea)
+  ) 
+  (fp_line 
+    (start 14.2875 -9.525) 
+    (end -14.2875 -9.525) 
+    (layer "Eco1.User") 
+    (width 0.12) 
+    (tstamp fd7a0b55-b72f-4648-959b-a06a8172e71d)
+  )
+)
