@@ -1,6 +1,6 @@
 # Arcade Switches Footprints
 
-This repository contains kicad footprints for Sanwa SW-68 arcade microswitch variants and Seimitsu MM9 arcade microswitch variants, as well as their footprints with standard keyboard spacings (19mm, 18x17mm).
+This repository contains kicad 6 footprints for Sanwa SW-68 arcade microswitch variants and Seimitsu MM9 arcade microswitch variants, as well as their footprints with standard keyboard spacings (19mm, 18x17mm).
 
 ## Development
 
