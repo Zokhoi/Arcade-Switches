@@ -79,7 +79,7 @@
 
 * For 30mm arcade buttons
 
-* Same connector footprint as MM9-4-AU but larger physical size
+* Same connector footprint as MM9-3-AU but larger physical size
 
 * Engineering drawing source: [【セイミツ工業】 押しボタン用スイッチ 【MM9-4-AU】 / 【SEIMITSU】 Switch for Push Button 【MM9-4-AU】 / アーケードゲーム販売トップス](https://www.tops-game.jp/products/detail.php?product_id=5996)
 
