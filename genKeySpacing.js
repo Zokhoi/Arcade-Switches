@@ -22,9 +22,9 @@ function sexpDump(src, lvl = 0) {
 let swfp = fs.readdirSync(`${__dirname}/Arcade_Switch.pretty`, {withFileTypes: true});
 let spacingSrc = fs.readdirSync(`${__dirname}/spacing`, {withFileTypes: true});
 let spacing = [];
-for (let j = 0; j < spacing.length; j++) {
-  if (!spacing[j].isFile()) continue;
-  let space = spacing[j].name.split(".");
+for (let j = 0; j < spacingSrc.length; j++) {
+  if (!spacingSrc[j].isFile()) continue;
+  let space = spacingSrc[j].name.split(".");
   space.pop();
   space = space.join(".");
   spacing.push({
@@ -32,12 +32,18 @@ for (let j = 0; j < spacing.length; j++) {
     name: space,
   });
 }
+console.log("Begin generation.")
 for (let i = 0; i < swfp.length; i++) {
   if (!swfp[i].isFile()) continue;
   if (excludeFootprint.includes(swfp[i].name)) continue;
   let src = fs.readFileSync(`${__dirname}/Arcade_Switch.pretty/${swfp[i].name}`, "utf-8");
+  console.log(`Processing ${swfp[i].name}.`)
   let edit;
   for (let j = 0; j < spacing.length; j++) {
+    let genFileName = swfp[i].name.split(".");
+    let ext = genFileName.pop();
+    genFileName = `${genFileName.join(".")}_${spacing[j].name}.${ext}`;
+
     edit = sexp(src).concat(sexp(fs.readFileSync(`${__dirname}/spacing/${spacing[j].filename}`, "utf-8")));
     edit[1] = new String(edit[1]+"_"+spacing[j].name);
     let sub = edit.filter(v=>v instanceof Array);
@@ -45,9 +51,7 @@ for (let i = 0; i < swfp.length; i++) {
     temp[1] = new String(`${temp[1]} with ${spacing[j].name} spacing`);
     temp = sub.find(v=>v[0]=="tags");
     temp[1] = new String(`${temp[1]},keyboard`);
-    let genFileName = swfp[i].name.split(".")
-    let ext = genFileName.pop();
-    genFileName = `${genFileName.join(".")}_${spacing[j].name}.${ext}`
     fs.writeFileSync(`${__dirname}/Arcade_Switch_Keyboard.pretty/${genFileName}`, sexpDump(edit), "utf-8");
   }
-} 
+}
+console.log("Generation done.")
