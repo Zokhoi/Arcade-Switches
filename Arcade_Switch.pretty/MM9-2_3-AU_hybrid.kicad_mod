@@ -20,6 +20,8 @@
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 650e9d71-4238-453f-8f62-ddb1d417c48c)
   )
+  (fp_line (start 2.1 0) (end 2.05 3) (layer "F.Cu") (width 0.7) (tstamp ca348f17-ef72-4e0e-b676-cf92fcb94975))
+  (fp_line (start 2.1 0) (end 2.05 3) (layer "B.Cu") (width 0.7) (tstamp 671e0511-045d-4f1e-87d0-d6d93e278354))
   (fp_line (start -0.5 0.5) (end 0.5 -0.5) (layer "Dwgs.User") (width 0.12) (tstamp 26edd108-5d0e-4d0a-8cb3-4d455d112a4a))
   (fp_line (start -0.5 -0.5) (end 0.5 0.5) (layer "Dwgs.User") (width 0.12) (tstamp f4b8c3ea-3e43-411f-a1bd-c4eda8c110d4))
   (fp_rect (start 7.5 6) (end -7.5 -6) (layer "F.Fab") (width 0.05) (fill none) (tstamp 3ebc9f73-b4a9-4c58-afc7-d5f128a8a38f))

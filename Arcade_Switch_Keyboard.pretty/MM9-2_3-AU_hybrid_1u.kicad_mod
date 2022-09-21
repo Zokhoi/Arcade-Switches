@@ -51,6 +51,20 @@
     (tstamp 650e9d71-4238-453f-8f62-ddb1d417c48c)
   ) 
   (fp_line 
+    (start 2.1 0) 
+    (end 2.05 3) 
+    (layer "F.Cu") 
+    (width 0.7) 
+    (tstamp ca348f17-ef72-4e0e-b676-cf92fcb94975)
+  ) 
+  (fp_line 
+    (start 2.1 0) 
+    (end 2.05 3) 
+    (layer "B.Cu") 
+    (width 0.7) 
+    (tstamp 671e0511-045d-4f1e-87d0-d6d93e278354)
+  ) 
+  (fp_line 
     (start -0.5 0.5) 
     (end 0.5 -0.5) 
     (layer "Dwgs.User") 
